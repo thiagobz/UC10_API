@@ -17,10 +17,8 @@ export class LoginComponent implements OnInit {
   userModel = new User("", "")
   
   onSubmit(){
-    console.log(this.userModel.email)
+    console.log(this.userModel.email);
     console.log(this.userModel.senha);
-    
-    
   }
 
   arrowRight = faArrowRight
