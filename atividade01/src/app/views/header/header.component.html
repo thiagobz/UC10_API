@@ -1,0 +1,56 @@
+<header class="cabecalho">
+  <div class="container container-grid cabecalho">
+      <div class="menu-left row">
+          <div class="search">
+              <i class="fas fa-search"></i>
+              <input type="text" placeholder="Digite aqui o que deseja procurar!">
+          </div>
+
+          <div class="btn-categoria col" id="menu" ngbDropdownToggle>
+              <button type="button" class="button btn btn-danger">
+                  <i class="fas fa-bars"></i>
+                  <p>Todos os <br>
+                      departamentos</p>
+              </button>
+          </div>
+
+          <div class="menu-dropdown row" ngbDropdownMenu>
+              <ul>
+                  <a href="#Computadores">
+                      <li>
+                          <p>Computadores</p>
+                      </li>
+                  </a>
+                  <a href="#Periféricos">
+                      <li>
+                          <p>Periféricos</p>
+                      </li>
+                  </a>
+                  <a href="#Monitores">
+                      <li>
+                          <p>Monitores</p>
+                      </li>
+                  </a>
+              </ul>
+          </div>
+      </div>
+
+      <div class="logo-img">
+          <a routerLink="" class="col-4">
+              <img src="../../../assets/IMG/Ico.png" alt="logo game mania">
+          </a>
+      </div>
+
+      <div class="icon-btn row">
+          <a href="#ajuda" class="col-sm-4">
+              <i class="far fa-question-circle" aria-hidden="true"></i>
+          </a>
+          <a routerLink="login" class="col-sm-4">
+              <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+          </a>
+          <a href="carrinho.html" class="col">
+              <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+          </a>
+      </div>
+  </div>
+</header>

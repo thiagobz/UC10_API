@@ -1,0 +1,148 @@
+.container {
+  background-color: transparent;
+}
+
+.container-grid {
+  width: 1200px;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+
+  background-color: transparent;
+}
+
+.banner {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 400px;
+}
+
+.img1 {
+  background-image: url("../../../assets/IMG/GameManiaB1.png");
+  transition: 1s;
+}
+
+.img2 {
+  background-image: url("../../../assets/IMG/GameManiaB2.png");
+  transition: 1s;
+}
+
+.img3 {
+  background-image: url("../../../assets/IMG/GameManiaB3.png");
+  transition: 1s;
+}
+
+.progress-bar {
+  width: 0%;
+  display: block;
+}
+
+.progress.active .progress-bar {
+  -webkit-transition: none !important;
+  transition: none !important;
+}
+
+.produtos-section {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.produto a img {
+  width: 200px;
+  height: 200px;
+}
+
+.produto a {
+  text-decoration: none;
+}
+
+.produto h5 {
+  width: 200px;
+  font-size: 14px;
+  color: #E5E5E5;
+
+  padding-top: 5px;
+  margin: 0 auto;
+}
+
+.produto p {
+  width: 200px;
+  margin: 0;
+}
+
+.text1 {
+  font-size: 11px;
+  color: #E90313;
+  padding-top: 10px;
+}
+
+.text2 {
+  font-size: 11px;
+  color: #00E525;
+}
+
+.text3 {
+  font-size: 14px;
+  color: #00E525;
+}
+
+.text4 {
+  font-size: 11px;
+  color: #E5E5E5;
+}
+
+.text5 {
+  font-size: 14px;
+  color: #E90313;
+}
+
+.text6 {
+  font-size: 11px;
+  color: #E5E5E5;
+}
+
+.text7 {
+  font-size: 11px;
+  color: #E5E5E5;
+}
+
+.in-text {
+  color: #E90313;
+}
+
+.produtos-section2 {
+  margin-top: 9rem;
+
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+
+}
+
+.produto02 a img {
+  width: 200px;
+  height: 200px;
+}
+
+.produto02 h5 {
+  width: 200px;
+  font-size: 14px;
+  color: #E5E5E5;
+
+  padding-top: 5px;
+  margin: 0 auto;
+}
+
+.produto02 p {
+  width: 200px;
+  margin: 0;
+}
+
+.produto02 a {
+  text-decoration: none;
+}
