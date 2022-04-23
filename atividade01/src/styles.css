@@ -1,1 +1,227 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: #303030;
+}
+
+.container {
+    background-color: transparent;
+  }
+
+.container-grid {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  
+    background-color: transparent;
+  }
+
+  @media screen and (max-width: 768px) {
+    body {
+      max-width: 768px;
+    }
+  
+    .container-grid {
+      width: 768px;
+      display: inline-block;
+    }
+  
+    .btn-categoria {
+      position: absolute;
+      top: 50px;
+      left: 85%;
+      width: 75px;
+  
+      margin: 0;
+    }
+  
+    .jquerymenu {
+      display: flex;
+    }
+  
+    .search {
+      width: 380px;
+      height: 60px;
+  
+      border-radius: 10px;
+  
+      display: inline-block;
+      justify-self: center;
+      position: relative;
+      top: 50px;
+      margin: 0 auto;
+  
+    }
+  
+    .search input {
+      width: 340px;
+      height: 60px;
+  
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      margin: 0 auto;
+      text-align: center;
+    }
+  
+    .search i {
+      padding-top: 17px;
+    }
+  
+  
+    .btn-categoria .button {
+      width: 90px;
+      height: 90px;
+      border-radius: 100%;
+    }
+  
+    .button {
+      padding: 0;
+      display: flex;
+  
+      position: absolute;
+      top: -13px;
+      align-content: center;
+    }
+  
+    .button>i {
+      padding: 0;
+      padding-left: 10px;
+      padding-top: 10px;
+    }
+  
+    .button>p {
+      display: none;
+    }
+  
+    .menu-dropdown {
+      width: 200px;
+      height: 140px;
+      position: absolute;
+      left: -100px;
+      top: 85px;
+    }
+  
+    .logo-img {
+      /* width: 80px;
+      height: 80px; */
+  
+      align-self: center;
+  
+      position: relative;
+      left: 0px;
+      top: -24px;
+    }
+  
+    .icon-btn {
+      display: none;
+    }
+  
+    .banner {
+      background-image: url("../src/assets/IMG/GameManiaB2.png");
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+  
+      width: 768px;
+      max-width: 768px;
+      height: 250px;
+    }
+  
+    .banner img {
+      display: none;
+    }
+  
+    .produtos-section {
+      display: inline-block;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .produto {
+      display: grid;
+      justify-items: center;
+  
+      margin-left: 30px;
+      margin-bottom: 30px;
+      padding-top: 30px;
+      padding-bottom: 30px;
+  
+  
+      background-color: #424242;
+    }
+  
+    .produto a img {
+      width: 400px;
+      height: 400px;
+    }
+  
+    .produto h5 {
+      width: 400px;
+      font-size: 1.2em;
+    }
+  
+    .produto p {
+      margin: 0 auto;
+      width: 400px;
+      font-size: 1.2em;
+  
+    }
+  
+    .produtos-section2 {
+      display: inline-block;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  
+      position: relative;
+      top: 80px;
+  
+    }
+  
+    .produto02 {
+      display: grid;
+      justify-items: center;
+  
+      margin-left: 30px;
+      margin-bottom: 30px;
+      margin-top: 50px;
+  
+      padding-top: 30px;
+      padding-bottom: 30px;
+  
+  
+      background-color: #424242;
+    }
+  
+    .produto02 a img {
+      width: 400px;
+      height: 400px;
+    }
+  
+    .produto02 h5 {
+      width: 400px;
+      font-size: 1.2em;
+    }
+  
+    .produto02 p {
+      margin: 0 auto;
+      width: 400px;
+      font-size: 1.2em;
+    }
+  
+    .rodape {
+      display: inline-flex;
+      position: relative;
+      top: 300px;
+    }
+  }

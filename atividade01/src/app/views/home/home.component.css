@@ -1,16 +1,5 @@
-.container {
-  background-color: transparent;
-}
 
-.container-grid {
-  width: 1200px;
-  height: 100%;
-  margin: auto;
-  display: flex;
-  justify-content: space-between;
 
-  background-color: transparent;
-}
 
 .banner {
   background-position: center;

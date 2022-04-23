@@ -1,6 +1,6 @@
 <form class="login-container" #userForm="ngForm"(ngSubmit)="onSubmit()">
   <label for="email"></label>
-  <input type="email" name="email" id="email" [(ngModel)] = "userModel.email" placeholder="Email.">
+  <input type="email" name="email" id="email" placeholder="Email." [(ngModel)] = "userModel.email" >
   
   <label for="senha"></label>
   <input type="password" name="senha" id="senha" [(ngModel)] = "userModel.senha" placeholder="Senha">
