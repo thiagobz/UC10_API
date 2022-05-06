@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { User } from 'src/app/models/user';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import { LoginService } from 'src/app/services/login.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-login',
@@ -10,7 +12,7 @@ import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
 export class LoginComponent implements OnInit {
 
-  constructor() { }
+  constructor(private LoginService: LoginService, private router: Router) { }
 
   ngOnInit(): void {
   }
@@ -19,7 +21,7 @@ export class LoginComponent implements OnInit {
   
   onSubmit(){
     console.log(this.userModel.email);
-    console.log(this.userModel.senha);
+    console.log(this.userModel.password);
   }
 
   arrowRight = faArrowRight
