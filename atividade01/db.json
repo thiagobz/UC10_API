@@ -1,4 +1,20 @@
 {
+  
+  "users": [
+    {
+      "id": 1,
+      "email": "thiago@email.com",
+      "senha": "teste@123",
+      "nome": "Thiago"
+    },
+    {
+      "email": "maria@email.com",
+      "senha": "123@teste",
+      "nome": "Maria",
+      "id": 2
+    }
+  ],
+
   "produtos": [
     {
       "img": "assets/IMG/CPU.png",
@@ -95,20 +111,6 @@
       "p6": "em até 12x de ",
       "span": "146,68",
       "p7": "sem juros no cartão"
-    }
-  ],
-  "users": [
-    {
-      "id": 1,
-      "email": "thiago@email.com",
-      "senha": "teste@123",
-      "nome": "Thiago"
-    },
-    {
-      "email": "maria@email.com",
-      "senha": "123@teste",
-      "nome": "Maria",
-      "id": 2
     }
   ]
 }
