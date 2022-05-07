@@ -3,6 +3,7 @@ import { User } from 'src/app/models/user';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { LoginService } from 'src/app/services/login.service';
 import { Router } from '@angular/router';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-login',
